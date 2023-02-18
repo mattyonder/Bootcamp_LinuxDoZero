@@ -1,0 +1,3 @@
+mv /home/mateussantos/planilhas.xlsx /disk2/: To movendo o arquivo planilhas para o diretório disk2.
+
+mv bancodedados.dmf banco_de_dados.mdf: Estou mudando o nome do arquivo bancodedados.dfm para banco_de_dados.mdf.

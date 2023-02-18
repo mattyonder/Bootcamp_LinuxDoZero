@@ -1,0 +1,24 @@
+groupadd GRP_ADM
+groupadd GRP_VEN
+	( Aqui eu criei dois grupos )
+groupdel GRP_TESTE ( Aqui eu removi o grupo teste )
+
+useradd rodrigo -c "Rodrigo Silva" -m -s /bin/bash -p $(openssl passwd -salt val Senha123) -G GRP_ADM 
+
+useradd debora -c "Débora Silva" -m -s /bin/bash -p $(openssl passwd -salt val Senha123) -G GRP_ADM
+
+useradd daniel -c "Daniel Silva" -m -s /bin/bash -p $(openssl passwd -salt val Senha123) -G GRP_VEN
+
+useradd maisa -c "Maisa Silva" -m -s /bin/bash -p $(openssl passwd -salt val Senha123) -G GRP_VEN
+	( Criei alguns usuários e adicionei eles a seus respectivos grupos )
+	
+usermod -G GRP_VEN joao ( Adicionei o usuário joão ao grupo GRP_VEN )
+
+usermod -G GRP_VEN mariana ( Por meio da propriedade -g, eu removo mariana de todos os grupos e adiciono ela ao GRP_VEN apenas )
+
+usermod -G adm,sudo,GRP_VEN mariana ( Adicionei mariana aos grupos adm,sudo,GRP_VEN )
+
+gpasswd -d mariana sudo
+
+gpasswd -d mariana adm 
+	( Removi mariana dos grupos sudo e adm )

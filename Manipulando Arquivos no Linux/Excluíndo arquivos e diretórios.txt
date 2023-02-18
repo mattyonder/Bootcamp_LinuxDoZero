@@ -1,0 +1,8 @@
+mkdir Meus Documentos ( Estou criando 2 diretórios, Meu e Documentos )
+mkdir 'Meus Documentos' ( Estou criando 1 diretório com o nome Meus Documentos )
+cd 'Meus Documentos' ( Estou entrando no diretório Meus Documentos )
+rmdir Meus ( Estou removendo o diretório Meus )
+rm * ( Aqui eu removi todos os arquivos de dentro de um diretório )
+rm *.txt ( Remove todos os arquivos que terminam em .txt )
+rmdir Escolares Financeiras ( Remove os diretórios conforme os nomes citados )
+rm -rf Planilhas/ ( Aqui está apagando tudo dentro de Planilhas, usando os parametros -r, recursivo pois apaga tudo que tem dentro, e -f, forçado pois força a apagar 

@@ -1,0 +1,9 @@
+useradd guest -c "Convidado" -m -e 26/06/2022 ( Criando um usuário com data limite de uso apartir do atributo -e )
+
+usermod guest -s /bin/bash ( Modifica o usuário guest adicionando um bash para ele )
+
+passwd guest -e ( O parametro -e expirou minha senha assim eu terei que criar outra conta para guest )
+
+cat /etc/passwd ( Aqui mostra as informações de usuários que eu já criei )
+
+

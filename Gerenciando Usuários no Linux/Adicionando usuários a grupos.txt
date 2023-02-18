@@ -1,0 +1,3 @@
+usermod -G adm,sudo mariana ( Estou adicionando o usuário Mariana, que eu criei, no grupo adm e sudo.
+
+cat etc/group ( Agora estou verificando a lista de grupos e quem está nele )

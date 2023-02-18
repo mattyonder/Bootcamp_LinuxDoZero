@@ -1,0 +1,25 @@
+Pacote pode ser um software, um driver ou um CODEC.
+
+apt-get ( É o gerenciador de pacote mais baixo nivel, nivel sistema, pois ele não retorna muita informação do que está fazendo no momento ).
+
+apt ( Ele retorna mais informação, é mais nivel de usuário ).
+
+apt update ( Se um pacote teve uma atualização hoje, isso não quer dizer que eu vou ter acesso a ele, já que ainda posso não ter atualizado a lista de pacotes ).
+
+apt list ( Mostra os pacotes disponisveis para eu instalar ).
+
+apt list --installed ( Mostra os pacotes instalados ).
+
+apt list --upgradeable ( Mostra os pacotes que podem ser instalados ).
+
+EM SERVIDOR, é sempre importante tomar cuidado com instalações, fazendo sempre um snapshot pois pode dar algum problema, tipo softwares não compativeis.
+
+apt search samba ( To pesquisando quais pacotes com o nome samba, estão disponiveis ).
+
+apt install net-tools ( Instalei o pacote net-tools )
+
+wget https://github.com/denilsonbonatti/linux-projeto1-iac/archive/refs/heads/main.zip ( O wget serve para fazer downloads, assim, baixei o link do github que passei acima para fazer o download desse arquivo main.zip ).
+
+apt remove net-tools -y ( Estou removendo o pacote net-tools, sem que o linux me pergunte se quero remover ou não, por meio do parametro -y ).
+
+apt edit-sources ( Mostra o link de todos os repositórios do linux ).

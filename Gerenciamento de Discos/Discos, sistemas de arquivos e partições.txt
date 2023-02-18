@@ -1,0 +1,13 @@
+HD - Grande armazenamento, mais lento, maior gasto de energia, mais barato.
+SSD - Mais rápido, menor armazenamento, mais caro.
+
+Sistema de arquivos é o padrão que o sistema operacional usa para controlar os dados em relação ao armazenamento deles e sua recuperação.
+
+MacOS - HFS
+Unix/Linux - Ext3, Ext4( Usado pelo Ubuntu e Debian ), XFS ( Usado pelo Redheat e Fedora )
+Windows - FAT32 ( Mais usado pelos windows mais modernos ), NTFS
+
+
+No linux cada disco é reconhecido por sda, sdb, sdc, ...
+
+Já suas partições são identificadas por: sda1, sda2, sdb2, sdb3.

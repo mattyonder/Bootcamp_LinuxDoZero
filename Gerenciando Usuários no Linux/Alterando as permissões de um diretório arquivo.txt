@@ -1,0 +1,22 @@
+LEITURA (R) 4
+GRAVAÇÃO (W) 2
+EXECUÇÃO (X) 1
+NENHUMA 0
+
+chmod 750 /adm/
+	Esse número ele é definido pela soma dos valores acima, então, o 7 quer dizer que o bloco dono pode ler gravar e executar ( 4+2+1 )
+	O bloco grupo pode ler e executar
+	O bloco outros não faz nada
+No diretório adm somente debora que é a adm pode ler, gravar e executar.
+rodrigo só vai poder ler e excutar
+E outros usuários nao poderão fazer nada.
+
+chmod 775 /ven  
+	O dono pode ler, gravar e executar
+	O grupo pode ler, gravar e executar
+	Os outros podem ler e executar
+	
+chmod 750 texto-adm.txt
+	Como eu criei esse arquivo como root o root vai ser o dono dele, tendo permissão 7, o arquivo por fazer parte do grupo GRP_ADM, o grupo GRP_ADM tem permissão 5, e os demais não podem fazer nada.
+	
+chmod 777 /publica/ ( Aqui eu dei persmissão total a qualquer usuário acessar a pasta publica )

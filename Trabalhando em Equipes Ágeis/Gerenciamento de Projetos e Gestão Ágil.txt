@@ -1,0 +1,47 @@
+Processo: 
+
+	- É recorrente e contínuo
+	- É replicável
+	- Geralmente é repetitivo e realizado regularmente
+
+Projeto:
+	
+	- Um esforço temporário para atingir um objetivo
+	- O resultado é exclusivo
+	- Tem início e fim bem definidos
+	
+-----------------------------------------------------------------
+
+Modelo tradicional Cascata ( Waterfall ):
+
+- Planejamento inicial
+- Valor entregue no final 
+
+Como funciona:
+Análise
+	Projeto(Design)
+		Implementação
+			Teste
+				Entrega/Manutenção
+
+Modelo ágil com Scrum:
+
+- Planejamento por Sprints
+- Desenvolvimento iterativo e incremental
+- Valor entregue continuamente ( feedback ) 
+
+Como funciona:
+Iniciar - 1°Sprint - 2°Sprint - 3°Sprint - 4°Sprint - Release
+
+Você vai realizando os processos em demandas menores e em ciclos, pois vai agregando valor ao cliente e pode continuar a fazer o resto até finalizar totalmente.
+
+-----------------------------------------------------------------
+
+Gestão agil é uma forma de gestão que seja... :
+
+	- Flexivel e que se adapte às mudanças
+	- Colaborativa e que gere transparência
+	- Voltada ao aprendizado
+	- Entrega contínua de valor
+	
+	

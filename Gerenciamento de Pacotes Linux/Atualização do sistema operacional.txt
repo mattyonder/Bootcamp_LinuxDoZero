@@ -1,0 +1,3 @@
+Para servidor é aconselhavel ter um ambiente de teste para verificar se a atualização vai dar problemas ou não, tipo a propria virtual box ou screenshots
+
+apt install ./nome do arquivo ( Dá pra instalar arquivos .deb via apt install )

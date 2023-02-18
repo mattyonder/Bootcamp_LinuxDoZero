@@ -1,0 +1,9 @@
+Comandos:
+
+pwd - Retorna o diretório atual
+
+cd ../backups ( Aqui eu to retornando para o diretorio anterior e depois entrando em backups )
+
+cd /var/ ( Se eu digitar isso e apertar tab 2 vezes, vai mostrar os arquivos dentro do diretório var )
+
+

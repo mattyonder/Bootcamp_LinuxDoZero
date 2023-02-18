@@ -1,0 +1,13 @@
+cp /home/mateussantos/arquivo-mateus1 /disk2/: Copiei o arquivo-mateus1 para o diretório disk2
+
+cp /home/mateussantos/*.txt /disk2/: Estou copiando todos os arquivos do diretório mateussantos que terminam em .txt para o /disk2/.
+
+cp ./a* /disk2/: Aqui eu estou dentro do diretório home/mateussantos/ e copiei todos os arquivos que começam com a letra "a".
+
+cp /home/mateussantos/* /disk2/ -i: Aqui eu estou copiando todos os arquivos do diretório selecionado, mas com o parâmetro -i eu faço ter uma iteração maior no terminal, selecionando assim se quer sobrepor ou não algum arquivo.
+
+cp /home/mateussantos/* /disk2/ -r: O parâmetro -r faz copias de modo recursivo. Então posso copiar diretórios tbm
+
+cp /home/mateussantos/* /disk2/ -r -v: O parâmetro -v demonstra o que está acontecendo, ele dá um retorno dos arquivos sendo copiados.
+
+cp /etc/s* /disk2/backup/ -v -r: Copiei todos os arquivos de etc que começam com s, para o diretório backup dentro de disk2.

@@ -1,0 +1,11 @@
+cat /etc/group ( Nele acaba mostrando os usuários sudo e adm tbm, não sei ao certo sua funcionalidade )
+
+sudo cat /etc/sudoers ( Dentro daqui eu estou mostrando as permissões do sudo )
+
+sudo passwd root ( Aqui estou atribuindo uma senha de usuário root para o usuário atual, no caso mateussantos )
+
+su ( Loga como usuário root )
+
+su mateussantos ( Aqui eu estou saindo do usuário root para o meu usuário mateussantos )
+
+É aconselhavel entrar no super usuário, realizar suas atividades e depois sair.

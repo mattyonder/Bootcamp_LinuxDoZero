@@ -1,0 +1,15 @@
+cat /etc/ssh/sshd_config ( Esse comando me permite acessar onde ficar salvo as configurações do sshd, que vai me permitir acessar o servido com o usuário root diretamente )
+
+nano cat /etc/ssh/sshd_config ( Estou abrindo esse arquivo para editar ele )
+Mas para editar tenho que abrir como super usuário ( sudo ou root ) 
+
+Mudo o parametro do PermitRootLogin para  "yes"
+
+sudo reboot ( renicia o sistema, no caso acessando via terminal o servidor linux, eu vou reiniciar o servidor linux )
+
+systemctl status sshd ( Mostra o status do sistema sshd )
+systemctl restart sshd ( Estou reiniciando o sistema sshd )
+O systemctl restar dá pra reiniciar outros serviços, até mesmo em minha máquina
+
+ssh root@192.168.1.7 ( Aqui estou logando diretamente como root no sistema )
+Não é aconselhavel por motivos de segurança acessar como root, mas como estou em máquina local, ta dboa.

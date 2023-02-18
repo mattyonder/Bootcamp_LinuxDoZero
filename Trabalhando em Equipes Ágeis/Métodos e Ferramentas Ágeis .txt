@@ -1,0 +1,125 @@
+Métodos Ágeis:
+
+	Framework Scrum
+	Extreme Programmin (XP)
+	Kanban
+	OKR
+	
+Scrum
+	É framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos - Scrum Guide (Nov.2020)
+	
+Bases do Scrum: 
+
+		Empirismo - Foco na observação, ciclos de aprendizado, observações e decisões no que é observado
+		Lean Thinking - Mindset da melhoria contínua e da redução dos desperdicios
+		
+Pilares do Scrum:
+
+		Transparência - Todos os ângulos de qualquer processo devem ser observados por qualquer pessoa.
+		Inspeção - Aplicar uma visão crítica do que está acontecendo.
+		Adaptação - Aprender atravez da transparência e da inspeção, assim adaptando o processo.
+		
+-----------------------------------------------------------------
+
+O framework Scrum é propositalmente incompleto, apenas definindo as partes necessáras para implementar a teoria Scrum.
+
+
+Scrum team:
+	Product Owner (PO)
+	Scrum Master (SM)
+	Developers
+
+Ciclo scrum:
+
+Product Backlog ( Após aqui é um ciclo ){
+	- Sprint Planning
+	- Sprint Backlog
+	- Daily Scrum
+	- Increment
+	- Sprint Review
+	- Sprint Retrospective
+	}
+	
+-----------------------------------------------------------------
+
+Extreme Progamming (XP) é um método ágil criado no final da década de 90 para desenvolvimento de software.
+
+Tem como objetivo criar sistemas com alta qualidade, com base em uma interação próxima com os clientes, testagem constate e ciclos de desenvolvimento curtos.
+
+Objetivo principal: Fazer ciclos de entregas rápidos, contínuos e incrementais:
+	Planeja -> Faz -> Testa/Mensura -> Melhora/Incrementa -> Planeja
+	
+Tem no XP?
+	CICLOS
+	"CERIMÔNIAS"
+	TESTES
+	PROGRAMAÇÃO EM PARES
+	FEEDBACK
+	APROXIMAÇÃO COM O CLIENTE
+	FLEXIBILIDADE
+	
+-----------------------------------------------------------------
+
+Kanban é um método para definir, gerenciar e melhorar serviços
+
+Ele funciona assim:
+
+TODO - Para fazer
+DOING - Fazendo 
+DONE - Feito
+
+-----------------------------------------------------------------
+
+O que é OKR
+
+Objectives
+Key
+Result
+
+É um método de gestão ágil e tem objetivo simplificar a forma de encarar os chamados principais objetivos estratégicos. Ele é usado pelo Google.
+
+Os objetivos do OKR são descrições qualitativas que apontam a direção que deverá ser seguida pela empresa. Ele tem que ser:
+	- Claro.
+	- Inspirador.
+	- Desafiador.
+	- Alinhado com a missão do negócio.
+
+Exemplos de objetivos do OKR:
+	Criar uma experiência inesquecível para o cliente em todos os pontos de contato.
+	Crescer as vendas na região sul do país, dominando a região.
+	Tornar-se referência nacional e autoridade absoluta na área de Educação em Tecnologia.
+	
+Os resultados-chave (Key Results), também chamado de KRs, são as metas que determinam o atingimento do objetivo do OKR.
+
+Eles tem que ser:
+	- Baseados em indicadores-chave de desempenho (KPIs)
+	- Quantitativo
+	- SMART: Especificas, Mensuráveis, Atingíveis, Relevantes e Temporais
+	
+Os KRs vão servir de referencia para indicar o progresso do objetivo principal
+
+Normalmente um OKR tem de 2 à 5 KRs
+
+-----------------------------------------------------------------
+
+Benefícios do OKR:
+
+- Agilidade
+- Cooperação
+- Transparência
+- Monitoramento Contínuo
+
+-----------------------------------------------------------------
+
+Algumas ferramentas usadas para gestão agil:
+
+	- Trello
+	- Jira
+	- Notion
+	- Clickup
+	- Miro
+	- Pipefy
+	- Miro
+	- Monday
+	- Asana
+	- EasyRetro

@@ -1,0 +1,7 @@
+useradd convidado1 -c "Convidado especial" -s /bin/bash -m -p $(openssl passwd -salt val Senha123) ( O parametro -p é para adicionar senha, porém essa senha deve vir encriptada, assi, diferente da aula que após o passwd foi usado um - crypt, eu usei o -salt val e depois pus a senha )
+
+nano criar_user.sh ( Dentro do diretório scripts que eu criei dentro da raiz, estou criando um arquivo .sh que vai ser um script chamado de criar user )
+
+chmod +x criar_user.sh ( Estou dando permissão de script ao arquivo que eu criei )
+
+

@@ -1,0 +1,5 @@
+vi leia-me.txt ( Cria um arquivo .txt e abre ele com o vi )
+
+Quando entrar no vi, aperta a tecla Insert para entrar no modo de edição, e Esc para sair do modo de inserção, e a tecla de : entra no menu, e o comando wq salva o arquivo e saí.
+
+cat leia-me.txt ( Mostra o contéudo dentro do arquivo )

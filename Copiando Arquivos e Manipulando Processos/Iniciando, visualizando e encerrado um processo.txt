@@ -1,0 +1,15 @@
+ps: Só mostra processos do terminal e do usuário atual.
+Parametros ->
+a: Mostra processos de outros usuários
+u: Mostra os usuários
+x: Mostra os processos executados fora do console
+
+kill 44346: Esse aqui era o app de campo minado que abri fora da virtual machine,e com o comando kill eu pude parar esse processo apartir de seu PID, parece ser uma identificação em ordem pelo ultimo processo que foi aberto.
+
+kill chrome: Comando usado pelo istrutor denilson para parar o processo do chrome no ambiente gráfico ubuntu dele.
+
+w: Mostra os usuários logados no sistema.
+
+who -a: Mostra os usuário logados e seu PWD.
+
+kill 23656: Eu to parando um processo de logon do mateussantos com base no seu PWD.

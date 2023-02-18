@@ -1,0 +1,19 @@
+ls | more ( Com esse | more vou conseguir visualizar os arquivo de modo organizado
+
+ls passwd ( Eu to procurando dentro do diretório um arquivo com nome de passwd )
+
+ls p* ( Comando de pesquisa no ls onde coloco o * após os p, pelo visto o *p antes é para buscar arquivos que tem algo antes da letra p, já o p* é para buscar arquivos com p de primeira letra )
+
+ls m?g* ( Aqui eu estou pesquisando arquivos que começam com a letra m, podem ter qualquer letra após eles, e depois um g
+
+cd ~ ( Vai direto para diretório de usuário )
+
+touch arquivo1.txt ( Estou criando um arquivo novo chamado arquivo1.txt )
+
+Se eu digitar ls arquivo[1 3]* vou puxar o arquivo1 arquivo2 e arquivo3, mas o comando não está funcionando não sei por que. Consegui resolver tacando uma barra no meio, aí fica : ls arquivo[1-3]
+
+ls arquivo[2,5] ( Aqui estou puxando somente os arquivos 2 e 5 )
+
+ls arquivo[^2,5]* ( Aqui vai listar todos os arquivos menos o 2 e 5 )
+
+ls arquivo[^3-5]* ( Aqui ele vai listar os arquivos menos os do 3 até 5 )

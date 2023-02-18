@@ -1,0 +1,3 @@
+ls /sys ( Mostra os arquivos dentro do diretório sys )
+ls /sys/kernel/p* ( Aqui eu estou exibindo os arquivos dentro do diretorio sys/kernel, que começam com a letra p )
+find -name arq* ( Aqui eu to pesquisando um com base no nome um arquivo que começa com arq )

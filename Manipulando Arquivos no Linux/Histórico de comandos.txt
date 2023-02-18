@@ -1,0 +1,27 @@
+history ( Mostra o histórico de comandos do usuáro atual, armazena até 1000 comandos )
+
+history 30 ( Mostra os ultimos 30 comandos )
+
+!415 ( Executa o comando na posição 415 no histórico, que naquele momento era o pwd então ele executou o pwd )
+
+!! ( Vai executar o ultimo comando usado )
+
+!?dat? ( Vai executar o comando que começar com dat. Mas pelos testes que fiz pode funcionar sem o ? no final )
+
+history | grep "Planilhas" vou puxar os comandos no históricos que tem o parâmetro planilhas 
+
+export HISTTIMEFORMAT="%c" ( Aqui eu mudei uma variavel de ambiente para toda vez que eu use o comando History mostre o horário conforme o parametro escolhido, no caso %c )
+
+export HISTTIMEFORMAT="%c " ( Dei um espaço apos o c para não ficar os comanddos não ficarem colados )
+
+history -c ( Aqui eu to apagando o histórico, mas por segurança ele não é realmente excluido )
+
+set +o history ( Aqui eu to desativando o history, assim, quando usar um comando, ele nao vai aparecer no histórico )
+
+set -o history ( Efeito reverso ao +o )
+
+Para mudar a quantidade de comandos armazenados no histórico, eu vou dentro do arquivo. bashrc e mudo a linha histsize
+
+history -w ( Salva os comandos em um arquivo chamado .bash_history )
+
+HISTFILESIZE - Essa linha define o tamanho em bytes do arquivo de historico

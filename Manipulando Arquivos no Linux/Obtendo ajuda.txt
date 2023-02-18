@@ -1,0 +1,18 @@
+ls --help (Mostra como usar o comando ls)
+
+ls -l ( Mostra de forma descritiva os componentes )
+	Se tiver um d na frente, é um diretório
+	se tiver um l na frente, é um link
+	Se tiver um - na frente, é um arquivo
+	
+	O número ao lado desse código, mostra quanto objetos tem dentro desse diretório
+	
+	O número ao lado de root mostra o tamanho do arquivo
+	
+ls -h ( Mostra esse tamanho em formato humano (kb, mb, gb ...)
+
+rm -rfvi ( O parametro I, pergunta se voce quer apagar )
+
+man ls ( Vou exibir um manual do comando ls )
+
+Qualquer dúvida que eu tiver, posso ir na documentação no site da ubuntu

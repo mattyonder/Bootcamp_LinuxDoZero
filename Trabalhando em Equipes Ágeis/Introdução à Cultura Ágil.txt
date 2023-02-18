@@ -1,0 +1,61 @@
+
+- Ágil é ser mais adaptávelas situações. 
+- Ser veloz pode estressar, e as vezes nem perceber o que está fazendo.
+- Ser rápido não é ser ágil.
+
+-----------------------------------------------------------------
+
+Manifesto ágil - Documento criado em feveriro de 2001. Profissionais que práticavam métodos ágeis como XP, DSDM, Scrum, FDD, etc, se reuniram.
+
+Valores do manifesto ágil:
+
+	1° - Indivíduos e interações, mais que processos e ferramentas.
+	2° - Software em funcionamento, mais que documentação abrangente.
+	3° - Colaboração com cliente, mais que negociação de contatos.
+	4° - Responder a mudanças, mais que seguir um plano.
+
+-----------------------------------------------------------------
+
+Os 12 príncipios do manifesto ágil:
+
+	( MUITO APONTADO PELO PROFESSOR ) 1 - Nossa maior prioridade é satisfazer o cliente atravéz da entrega contínua e adiantada de software com valor agregado.
+	( MUITO APONTADO PELO PROFESSOR ) 2 - Aceitar mudanças de 	requisitos, mesmo no fim do desenvolvimento. Processor ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas.
+	3 - Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo.
+	4 - Pessoas de negócio e desenvolvedores devem trabalhar diariamente em conjunto por todo projeto.
+	5 - Construir projetos em torno de indivíduos motivados, dando a eles o ambiente e o suporte necessário e confiando neles para fazer o trabalho.
+	( MUITO APONTADO PELO PROFESSOR ) 6 - O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é por meio de conversa face a face.
+	7 - Software funcionando é a medida primária de progresso.
+	8 - Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constate indefinidamente.
+	9 - Contínua atenção a excelência técnica e bom design aumenta a agilidade.
+	( MUITO APONTADO PELO PROFESSOR ) 10 - Simplicidade: A arte de maximizar a quantidade de trabalho não realizado é essencial.
+	11 - As melhores arquiteturas, requisitos e designs emergem de times auto-organizáveis.
+	( MUITO APONTADO PELO PROFESSOR ) 12 - Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta o comportamento de acordo.
+
+-----------------------------------------------------------------
+
+Características de um time ágil:
+
+	- Alinhado com o cliente e stakeholders ( Partes interessadas, pode ser usuário, cliente, patrocinadores, qualquer um interessado no projeto mesmo que seja de fora dele )
+	- Auto-organuzado e responsável
+	- Multidisciplinar
+	- Entrega valor continuamente
+	- Está sempre aprendendo
+	- Melhoria contínua
+	- Possui métricas e metas claras
+	- Unido
+
+-----------------------------------------------------------------
+
+A importância da agilidade no mundo da tecnologia
+
+	- Inovação
+
+	- Entregas rápidas
+
+	- Eficiência 
+
+	- Nosso mundo é V olatility
+	      		U ncertainty
+	      		C omplexity
+	      		A mbiguity
+	      

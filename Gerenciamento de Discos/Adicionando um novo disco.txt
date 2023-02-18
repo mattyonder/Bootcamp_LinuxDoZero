@@ -1,0 +1,19 @@
+lsblk: Mostra os discos dentro da máquina
+fdisk -l: Outro modo de mostrar os discos, porém mais detalhado.
+
+fdisk /dev/sdb: Abre o disco sdb para que eu possa realizar operações, como criação de partições.
+mkfs.ext4 /dev/sdb: Formatei o disco sdb e adicionei o formato ext4 nele.
+
+mount /dev/sdb /mnt/disco2/: Dentro do diretório mnt, criei uma pasta chamada disco2, e montei o disco sdb nela.
+
+umount /dev/sdb: Desmontei o disco2 ( Quando eu desmonto ele estou apenas desmontando, e não apagando os arquivos daquele disco ).
+
+nano /etc/fstab: Abre um arquivo que mostra os discos que estão instalados na máquina.
+
+	/dev/sdb /disk2 ext4 defaults 0 0
+
+	Formato de disco
+	Onde vai ser montado
+	Sistema de arquivos
+	Parâmetro default
+	0 e 0

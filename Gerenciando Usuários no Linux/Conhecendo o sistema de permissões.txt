@@ -1,0 +1,25 @@
+Quando eu dou u ls -l, as primeiras informações que aparecem são as informações sobre o que foi exibido.
+d = diretório
+- = arquivo
+
+R = READ
+W = WRITE
+X = EXECUTE
+
+RW XR WX RWX
+
+Existem 3 blocos, DONO, GRUPO e OUTROS
+
+Ex:
+
+drwxr-x---
+d|rwx|r-x|r-x
+
+Diretório que pode ser lido e escrito e executado
+
+As pessoas pertecentes a esse grupo ele vai poder somente ler e executar, mas não gravar nesse bloco.
+
+Se o usuário não estiver no grupo e não for usuário daquele grupo, ele só vai poder ler e executar
+
+chown debora:GRP_ADM /adm/ ( Aqui eu estou definindo debora como dona do diretório adm
+

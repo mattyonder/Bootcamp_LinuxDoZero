@@ -1,0 +1,13 @@
+useradd joao ( Adicionei um usuário chamado João ).
+
+userdel -f joao ( Removi o usuário chamado João ).
+
+useradd joao -m -c "Joao da Silva" ( Criei um usuário chamado Jõao, por meio do -m criei sua pasta de usuário, e com o -c criei seu nome de usuário ).
+
+passwd joao ( Aqui eu criei uma senha para joão, pode também ser usado para reiniciar essa senha ).
+
+chsh -s /bin/bash joao ( Esse comando adiciona um bash para o usuário joão ).
+
+userdel -r -f joao ( Removi o usuário chamado João junto de seu diretório ).
+
+useradd joao -m -c "João da Silva" -s /bin/bash ( Adicionei o usuário, agora com um bash )

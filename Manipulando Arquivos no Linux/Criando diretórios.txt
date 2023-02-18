@@ -1,0 +1,1 @@
+mkdir /home/mateussantos/Planilhas/Escolares ( Aqui estou criando um diretório dentro do diretório citado )
