@@ -1,0 +1,7 @@
+Servidor de arquivos serve para centralizar a administração de arquivos.
+Como uma nuvem, google drive, drop box, entre outros. 
+
+SMB - Protocolo para compartilhar arquivos entre maquinas ou maquina e servidor.
+Samba - Usado no linux para compartilhar arquivos.
+
+Logs -  Por eles, dá para saber quais alterações foram feitas no servidor.

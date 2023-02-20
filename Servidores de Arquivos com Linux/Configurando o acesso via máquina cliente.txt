@@ -1,0 +1,6 @@
+\\192.168.0.107\publica - Método de acessar o servidor pelo explorador de arquivos do windows.
+
+smb://192.168.0.107/publica/ - Método de acesso via linux 
+Consegui logar anonimamente, mas normalmente se usa um usuário desse servidor.
+
+Se mapear o caminho de rede, ele fica salvo como se fosse uma unidade do pc.

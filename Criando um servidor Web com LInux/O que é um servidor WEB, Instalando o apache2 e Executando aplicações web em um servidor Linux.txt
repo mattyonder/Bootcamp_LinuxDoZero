@@ -1,0 +1,17 @@
+Servidor DNS - Retorna o IP de um site.
+
+----------------------------------------------------------------------------
+
+apt install apache2 -y
+
+Como meu apache2 não havia iniciado apos eu dar um systemctl status apache2, usei o comando:
+
+systemctl restart apache2
+
+Após isso, ele funcionou corretamente.
+
+O ip de acesso ao site ( que eu defini um código de calculadora feito no html que eu tinha salvo, ) so é acessivel na minha rede local.
+
+----------------------------------------------------------------------------
+
+Lembrar sempre de de ativar o protocolo HTTP no firewall do site, aquele processo usado no EC2 da amazon por exemplo, serve para isso.

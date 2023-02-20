@@ -1,0 +1,25 @@
+Não é aconselhavel colocar o acesso aos arquivos e o sistema operacional no mesmo disco. Pois tanto o acesso aos arquivos como o sistema operacional vão ficar lentos. Por isso tudo foi criado dentro do disk2.
+
+nano /etc/samba/smb.conf  -  Entrando no arquivod e configuração do SAMBA.
+Configuração do SAMBA:
+
+[publica]
+
+#Indicando o caminho da pasta publica
+path = /disk2/publica
+#Permitindo que as pessoas gravem informações
+writable = yes
+#Indicando que qualquer pessoa pode acessar a pasta
+guest ok = yes
+#Todo mundo que acessar vai ser um convidado
+guest only = yes
+
+Serviços executados em segundo plano no linux são chamados de daemon. E para iniciar, reiniciar e fechar daemons se usa o systemctl.
+
+Os serviços daemon terminam em d no seu nome.
+
+systemctl restart smbd - Reinicia o SAMBA.
+
+systemctl status smbd -  Mostra o status do SAMBA.
+
+systemctl enable smbd - Apartir desse comando, toda vez que eu reinicio a minha virtual machine, ele vai iniciar o samba automaticamente.
