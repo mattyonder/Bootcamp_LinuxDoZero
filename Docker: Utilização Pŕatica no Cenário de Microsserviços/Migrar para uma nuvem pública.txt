@@ -1,0 +1,16 @@
+Bare Metal - Data Centers
+Data Centers locais são caros.
+
+Problemas da nuvem privada:
+	1 - Dificuldades com segurança da Tecnologia da Informação ( lógica e física )
+	2 - Custo com mão de obra especializada
+	3 - Custo de hardware
+	4 - Custo de Energia elétrica
+	5 - Falta de Energia (uso de geradores)
+	6 - Despesas inesperadas
+	
+Vantagens da nuvem pública:
+	1 - Preço ( paga somente oque usar )
+	2 - Facilidade de contratação, configuração e infraestrutura
+	3 - Escalabilidade
+	4 - Performance

@@ -1,0 +1,18 @@
+O que é são microsserviços?
+
+Microsserviços são um tipo inovador de arquitetura de software, que consiste em construir aplicaçoes desmembrando-as em serviços independentes. Estes serviços se comunicam entre si usando APIs e promovem grande agilidade em times de desenvolvimento.
+
+Quando se quebra uma aplicação monlítica em várias pequenas partes, conseguindo escalá-las de forma separada.
+
+
+---------------------------------------------------------------------------------
+O que é um cluster?
+
+Um cluster ( do ingles cluster:'Grupo, aglomerado') consiste em computadores ligados que trabalham em conjunto, de modo que, podem ser considerados como um único sistema. Computadores em cluster executam a mesma tarefa, controlado e programado por software. Cada computador presente em cluster é conhecido como nó ( node )
+
+Docker Swarm o que é ? ( é práticamente um cluster de containers )
+
+O Swarm é um recurso do Docker que fornece funcionalidades de orquestração de contêiner, incluindo clustering nativo de hosts do Docker e agendamento de cargas de trabalho de contêineres. Um grupo de hosts do Docker formam um cluster "Swarm".
+
+
+A vantagem do cluster é que se dar um problema em um dos nodes ( nó ), ele passa os containers para outro node.
