@@ -1,0 +1,25 @@
+- Use 3 ou 4 palavras que representam a mim:
+	Desenvolvedor Python
+	Cloud Computing 
+	AWS
+	Cientista de Dados
+
+Use 3 ou 4 tecnologias principais que utiliza e conhece
+	Python
+	SQL
+	Linux
+	AWS Cloud
+	
+Diga o quanto você é diferenciado com relação Às outras pessoas com o mesmo "job title" que o seu.
+	Bacharel em Sistemas de informação
+	Orientado a Resultados
+	Certificação AWS.
+	
+DICAS:
+	Usar um contador de caracteres
+	Separar frases por Pipe |
+	Apenas colocar nome da empresa se nao estiver buscando recolocação
+	Sempre focar no aumentod e autoridade
+	Deixe o mais específico possivel
+	Nunca utilize letras maíusculas na HeadLine
+	Use o captalize

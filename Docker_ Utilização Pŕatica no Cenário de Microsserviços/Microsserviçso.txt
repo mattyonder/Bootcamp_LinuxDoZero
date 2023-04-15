@@ -1,0 +1,8 @@
+O que é são microsserviços:
+Microsserviços são um tipo inovador de arquitetura de software, que consiste em construir aplicaçoes desmembrando-as em serviços independentes. Estes serviços se comunicam entre si usando APIs e promovem grande agilidade em times de desenvolvimento.
+
+Quando se quebra uma aplicação monlítica em várias pequenas partes, conseguindo escalá-las de forma separada.
+
+
+---------------------------------------------------------------------------------
+O que é um cluster?
